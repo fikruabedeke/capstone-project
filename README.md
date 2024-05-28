@@ -1,7 +1,9 @@
 # Capestone Project: Bank Application
+![Landing page](./bb_bank_app.png " alternate landing page")
+
 
 Three tired banking application built using REACT, NODEJS/EXPRESS and MONGODB layers.
-![Landing page](./bb_bank_app.png"alternate landing page")
+
 ## Available Scripts
 In the project directory, you can run:
 ### `npm start`
