@@ -10,9 +10,9 @@ const CreateAccount = () => {
         const [password, setPwd] = React.useState('');
         //const ctx = React.useContext(UserContext);
         const handle = ()=>{
-          //const port = process.env.PORT || 9080;
+          const port = process.env.PORT || 9080;
           console.log(name, email, password);
-          const url = `/account/create/${name}/${email}/${password}`;
+          const url = `http://localhost:${port}/account/create/${name}/${email}/${password}`;
           //ctx.users.push({name:name,email:email, password:password});
           (async ()=>{
             let res = await fetch(url).then((result)=>{
