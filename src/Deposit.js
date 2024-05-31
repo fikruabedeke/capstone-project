@@ -7,7 +7,7 @@ const Deposit = () => {
                 <input type="input" className="form-control" id="depositEmail" placeholder="Enter Email"/><br/>
                 Password:<br/>
                 <input type="number" className="form-control" id="depositAmount" placeholder="Enter Amount"/><br/>
-                <button type="submit" id="submit" className="btn" onClick="deposit()">Deposit</button>
+                <button type="submit" id="submit" className="btn">Deposit</button>
                 <div id="depositStatus"></div>
             </div>
         </div>
