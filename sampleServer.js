@@ -1,4 +1,4 @@
-const express = require("express");
+/*const express = require("express");
 const app = express();
 
 const cors = require("cors");
@@ -21,4 +21,4 @@ const dbo = require("./db/conn");
     } catch (error) {
       console.log(error);
     }
-  })();
+  })();*/

@@ -3,6 +3,11 @@ const cors = require('cors');
 const dao = require('./dao.js');
 const app = express();
 
+const cors = require("cors");
+require("dotenv").config({ path: "./config.env" });
+
+const port = process.env.PORT || 9080;
+
 app.use(express.static('public'));
 app.use(cors());
 
@@ -23,10 +28,10 @@ app.get('/account/all', function(req, res){
    dao.getAllUsers()
     .then((docs)=>{
         console.log(docs);
+        res.set('Content-Type', 'application/json');
         res.send(JSON.parse(docs));
     });
 });
 
-const port = 4500;
 app.listen(port);
 console.log('Sever running on port: '+port);

@@ -1,8 +1,9 @@
 const { MongoClient } = require('mongodb');
 
-const url = 'mongodb://localhost:27017';
+//const url = 'mongodb://localhost:27017';
+const url ='mongodb+srv://doadmin:Pz45Y7W86vC0Fk19@fkr-bb-bank-mongodb-b15f4a9e.mongo.ondigitalocean.com/?authSource=admin&replicaSet=myRepl';
 const client = new MongoClient(url);
-const dbName = 'usersbank';
+const dbName = 'blue-bank-db';
 
 
 async function create(usrname, usremail, usrpwd) {

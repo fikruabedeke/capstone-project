@@ -8,11 +8,11 @@ const CreateAccount = () => {
         const [name, setName] = React.useState('');
         const [email, setEmail] = React.useState('');
         const [password, setPwd] = React.useState('');
-        const ctx = React.useContext(UserContext);
+        //const ctx = React.useContext(UserContext);
         const handle = ()=>{
           console.log(name, email, password);
+          const url = `https://fikru-bedeke-bb-bank-3s24l.ondigitalocean.app/account/create/${name}/${email}/${password}`;
           //ctx.users.push({name:name,email:email, password:password});
-          const url = `http://localhost:4500/account/create/${name}/${email}/${password}`;
           (async ()=>{
             let res = await fetch(url).then((result)=>{
               console.log(result);
