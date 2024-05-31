@@ -10,8 +10,9 @@ const CreateAccount = () => {
         const [password, setPwd] = React.useState('');
         //const ctx = React.useContext(UserContext);
         const handle = ()=>{
+          //const port = process.env.PORT || 9080;
           console.log(name, email, password);
-          const url = `https://fikru-bedeke-bb-bank-3s24l.ondigitalocean.app/account/create/${name}/${email}/${password}`;
+          const url = `/account/create/${name}/${email}/${password}`;
           //ctx.users.push({name:name,email:email, password:password});
           (async ()=>{
             let res = await fetch(url).then((result)=>{

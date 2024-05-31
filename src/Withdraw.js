@@ -1,8 +1,8 @@
 const Withdraw = () => {
     return (
-        <div class="card text-bg-primary mb-3" style={{maxWidth: '18rem'}}>
-        <div class="card-header">WithDraw</div>
-        <div class="card-body">
+        <div className="card text-bg-primary mb-3" style={{maxWidth: '18rem'}}>
+        <div className="card-header">WithDraw</div>
+        <div className="card-body">
             Email:<br/>
             <input type="input" class="form-control" id="withDrawEmail" placeholder="Enter Email"/><br/>
             Amount:<br/>

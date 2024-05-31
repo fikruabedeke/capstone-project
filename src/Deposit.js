@@ -1,8 +1,8 @@
 const Deposit = () => {
     return (
-         <div class="card text-bg-primary mb-3" style={{maxWidth: '18rem'}}>
-            <div class="card-header">Deposit</div>
-            <div class="card-body">
+         <div className="card text-bg-primary mb-3" style={{maxWidth: '18rem'}}>
+            <div className="card-header">Deposit</div>
+            <div className="card-body">
                 Amount<br/>
                 <input type="input" class="form-control" id="depositEmail" placeholder="Enter Email"/><br/>
                 Password:<br/>

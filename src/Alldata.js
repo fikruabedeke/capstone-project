@@ -5,7 +5,7 @@ const AllData = () => {
     const ctx = useContext(UserContex);
    const [data, setData] = React.useState('');
     async function fetchUsers(){
-        let url = new URL("https://fikru-bedeke-bb-bank-3s24l.ondigitalocean.app/account/all");
+        let url = new URL("/account/all");
         let rsp = await fetch(url);
         let body = await rsp.text();
         setData(body);
