@@ -7,7 +7,7 @@ const Withdraw = () => {
             <input type="input" className="form-control" id="withDrawEmail" placeholder="Enter Email"/><br/>
             Amount:<br/>
             <input type="number" className="form-control" id="withdrawAmount" placeholder="Enter Amount"/><br/>
-            <button type="submit" id="submit" className="btn" onclick="withdraw()">Withdraw</button>
+            <button type="submit" id="submit" className="btn">Withdraw</button>
             <div id="withdrawStatus"></div>
         </div>
         </div>
