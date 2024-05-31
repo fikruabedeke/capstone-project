@@ -4,10 +4,10 @@ const Withdraw = () => {
         <div className="card-header">WithDraw</div>
         <div className="card-body">
             Email:<br/>
-            <input type="input" class="form-control" id="withDrawEmail" placeholder="Enter Email"/><br/>
+            <input type="input" className="form-control" id="withDrawEmail" placeholder="Enter Email"/><br/>
             Amount:<br/>
-            <input type="number" class="form-control" id="withdrawAmount" placeholder="Enter Amount"/><br/>
-            <button type="submit" id="submit" class="btn" onclick="withdraw()">Withdraw</button>
+            <input type="number" className="form-control" id="withdrawAmount" placeholder="Enter Amount"/><br/>
+            <button type="submit" id="submit" className="btn" onclick="withdraw()">Withdraw</button>
             <div id="withdrawStatus"></div>
         </div>
         </div>
