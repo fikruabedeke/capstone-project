@@ -1,4 +1,4 @@
-    const { MongoClient } = require('mongodb');
+    /*const { MongoClient } = require('mongodb');
 
     const url = 'mongodb://localhost:27017';
     const client = new MongoClient(url);
@@ -30,4 +30,4 @@
     main()
       .then(console.log)
       .catch(console.error)
-      .finally(() => client.close());
+      .finally(() => client.close());*/
