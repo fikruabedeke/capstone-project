@@ -12,7 +12,7 @@ const CreateAccount = () => {
         const handle = ()=>{
           const port = process.env.PORT || 9080;
           console.log(name, email, password);
-          const url = `http://162.243.184.144:9080/account/create/${name}/${email}/${password}`;
+          const url = `https://162.243.184.144:9080/account/create/${name}/${email}/${password}`;
           //ctx.users.push({name:name,email:email, password:password});
           (async ()=>{
             let res = await fetch(url).then((result)=>{

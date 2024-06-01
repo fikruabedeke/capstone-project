@@ -1,8 +1,8 @@
 const Login = () => {
     return (
-             <div class="card text-bg-primary mb-3 text-center" style={{maxWidth: '18rem'}}>
-                    <div class="card-header">Log into your account</div>
-                    <div class="card-body">
+             <div className="card text-bg-primary mb-3 text-center" style={{maxWidth: '18rem'}}>
+                    <div className="card-header">Log into your account</div>
+                    <div className="card-body">
                         Email<br/>
                         <input type="input" class="form-control" id="loginEmail" placeholder="Enter Email"/><br/>
                         Password:<br/>
