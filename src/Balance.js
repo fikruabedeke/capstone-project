@@ -5,7 +5,7 @@ const Balance = () => {
         <div class="card-body">
              Email<br/>
              <input type="input" class="form-control" id="balanceEmail" placeholder="Enter Email"/><br/>
-             <button type="submit" class="btn" onclick="balance()">Show Balance</button>
+             <button type="submit" class="btn">Show Balance</button>
              <div id='balanceStatus'></div>
         </div>
         </div>

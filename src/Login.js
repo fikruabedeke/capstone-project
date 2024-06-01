@@ -7,9 +7,9 @@ const Login = () => {
                         <input type="input" class="form-control" id="loginEmail" placeholder="Enter Email"/><br/>
                         Password:<br/>
                         <input type="password" class="form-control" id="loginpwd" placeholder="Enter passcode"/><br/>
-                        <button type="submit" id="loginviapwd" className="btn btn-info" onclick="">Login with your account</button><br/><br/>
-                        <button type="submit" id="loginviagoogle" className="btn btn-info" onclick="">Login with Google account</button><br/><br/>
-                        <button type="submit" id="loginviafacebook" className="btn btn-info" onclick="">Login with Facebook account</button>
+                        <button type="submit" id="loginviapwd" className="btn btn-info">Login with your account</button><br/><br/>
+                        <button type="submit" id="loginviagoogle" className="btn btn-info">Login with Google account</button><br/><br/>
+                        <button type="submit" id="loginviafacebook" className="btn btn-info">Login with Facebook account</button>
                         <div id="loginStatus"></div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ const AllData = () => {
    const [data, setData] = React.useState('');
     async function fetchUsers(){
         const port = process.env.PORT || 9080;
-        let url = new URL(`http://localhost:${port}/account/all`);
+        let url = new URL(`http://162.243.184.144:9080/account/all`);
         let rsp = await fetch(url);
         let body = await rsp.text();
         setData(body);
